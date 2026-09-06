@@ -1,0 +1,14 @@
+# build output — Vercel regenerates this on every deploy
+dist/
+
+# tooling
+node_modules/
+.vercel/
+
+# secrets
+.env
+.env.local
+
+# python
+__pycache__/
+*.pyc

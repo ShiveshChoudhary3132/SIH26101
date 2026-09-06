@@ -1,0 +1,1607 @@
+{
+ "generatedAt": "2026-09-06T11:54:22.877Z",
+ "competencies": [
+  {
+   "id": "STAT-01",
+   "domain": "STAT",
+   "name": "Survey Design & Sampling Methodology",
+   "crit": 3,
+   "trend": 1,
+   "kw": "sampling frame stratification multistage design probability proportional size estimator survey"
+  },
+  {
+   "id": "STAT-02",
+   "domain": "STAT",
+   "name": "Questionnaire Design & Field Operations",
+   "crit": 2,
+   "trend": 0.9,
+   "kw": "questionnaire schedule field investigator canvassing respondent non-response enumeration"
+  },
+  {
+   "id": "STAT-03",
+   "domain": "STAT",
+   "name": "Statistical Inference & Hypothesis Testing",
+   "crit": 3,
+   "trend": 1,
+   "kw": "inference confidence interval hypothesis significance variance estimation standard error"
+  },
+  {
+   "id": "STAT-04",
+   "domain": "STAT",
+   "name": "Price Statistics — CPI, WPI, IIP",
+   "crit": 3,
+   "trend": 1,
+   "kw": "index number consumer price wholesale industrial production laspeyres weight base year inflation"
+  },
+  {
+   "id": "STAT-05",
+   "domain": "STAT",
+   "name": "National Accounts & GDP Compilation",
+   "crit": 3,
+   "trend": 1,
+   "kw": "national accounts gross domestic product value added supply use table gva compilation"
+  },
+  {
+   "id": "STAT-06",
+   "domain": "STAT",
+   "name": "Time Series Analysis & Forecasting",
+   "crit": 2,
+   "trend": 1.1,
+   "kw": "time series seasonal adjustment arima trend forecasting nowcasting decomposition"
+  },
+  {
+   "id": "STAT-07",
+   "domain": "STAT",
+   "name": "Data Quality, Editing & Imputation",
+   "crit": 3,
+   "trend": 1.2,
+   "kw": "data quality editing imputation outlier consistency validation error rate framework"
+  },
+  {
+   "id": "STAT-08",
+   "domain": "STAT",
+   "name": "Labour Statistics & Employment Indicators",
+   "crit": 3,
+   "trend": 1.1,
+   "kw": "labour force employment unemployment worker participation activity status plfs wages"
+  },
+  {
+   "id": "STAT-09",
+   "domain": "STAT",
+   "name": "Agricultural & Rural Statistics",
+   "crit": 2,
+   "trend": 1,
+   "kw": "agriculture crop yield area estimation cultivation land use livestock rural harvest"
+  },
+  {
+   "id": "STAT-10",
+   "domain": "STAT",
+   "name": "Industrial & Enterprise Statistics",
+   "crit": 2,
+   "trend": 1,
+   "kw": "industry factory enterprise annual survey manufacturing business register establishment"
+  },
+  {
+   "id": "STAT-11",
+   "domain": "STAT",
+   "name": "SDG Indicators & National Indicator Framework",
+   "crit": 2,
+   "trend": 1.2,
+   "kw": "sustainable development goals indicator framework target monitoring disaggregation reporting"
+  },
+  {
+   "id": "STAT-12",
+   "domain": "STAT",
+   "name": "Metadata Standards & Statistical Documentation",
+   "crit": 2,
+   "trend": 1.3,
+   "kw": "metadata standard sdmx ddi documentation concept definition provenance data dictionary"
+  },
+  {
+   "id": "TECH-01",
+   "domain": "TECH",
+   "name": "Python for Statistical Computing",
+   "crit": 3,
+   "trend": 1.5,
+   "kw": "python pandas numpy scripting automation notebook statistical computing"
+  },
+  {
+   "id": "TECH-02",
+   "domain": "TECH",
+   "name": "R, STATA, SPSS & SAS Proficiency",
+   "crit": 2,
+   "trend": 0.9,
+   "kw": "r stata spss sas syntax survey package weighting analysis software"
+  },
+  {
+   "id": "TECH-03",
+   "domain": "TECH",
+   "name": "SQL & Database Management",
+   "crit": 3,
+   "trend": 1.3,
+   "kw": "sql database query join relational schema postgres warehouse indexing"
+  },
+  {
+   "id": "TECH-04",
+   "domain": "TECH",
+   "name": "Big Data Platforms (Spark / Hadoop)",
+   "crit": 1,
+   "trend": 1.4,
+   "kw": "big data spark hadoop distributed cluster pipeline scalable processing"
+  },
+  {
+   "id": "TECH-05",
+   "domain": "TECH",
+   "name": "Machine Learning & AI for Official Statistics",
+   "crit": 2,
+   "trend": 1.6,
+   "kw": "machine learning artificial intelligence model classification regression training feature prediction"
+  },
+  {
+   "id": "TECH-06",
+   "domain": "TECH",
+   "name": "GIS & Spatial Statistics",
+   "crit": 1,
+   "trend": 1.3,
+   "kw": "gis spatial geospatial mapping coordinates shapefile small area estimation"
+  },
+  {
+   "id": "TECH-07",
+   "domain": "TECH",
+   "name": "Data Visualisation & Dashboarding",
+   "crit": 2,
+   "trend": 1.4,
+   "kw": "visualisation dashboard chart plot reporting bi tableau interactive"
+  },
+  {
+   "id": "DIGI-01",
+   "domain": "DIGI",
+   "name": "e-Office, Digital Signatures & File Workflow",
+   "crit": 2,
+   "trend": 0.9,
+   "kw": "e-office digital file noting draft workflow paperless signature certificate dsc"
+  },
+  {
+   "id": "DIGI-02",
+   "domain": "DIGI",
+   "name": "DPDP Act 2023 & Data Privacy",
+   "crit": 3,
+   "trend": 1.5,
+   "kw": "privacy dpdp personal data fiduciary consent anonymisation confidentiality disclosure"
+  },
+  {
+   "id": "DIGI-03",
+   "domain": "DIGI",
+   "name": "Cybersecurity Hygiene",
+   "crit": 2,
+   "trend": 1.4,
+   "kw": "cybersecurity password phishing incident cert-in access control audit"
+  },
+  {
+   "id": "DIGI-04",
+   "domain": "DIGI",
+   "name": "Open Data, APIs & NDAP Publishing",
+   "crit": 2,
+   "trend": 1.3,
+   "kw": "open data api ndap metadata catalogue machine readable dissemination portal"
+  },
+  {
+   "id": "DIGI-05",
+   "domain": "DIGI",
+   "name": "Government Cloud (MeghRaj)",
+   "crit": 1,
+   "trend": 1.3,
+   "kw": "cloud meghraj nic server hosting virtual machine deployment infrastructure"
+  },
+  {
+   "id": "DIGI-06",
+   "domain": "DIGI",
+   "name": "Responsible AI & Algorithmic Ethics",
+   "crit": 2,
+   "trend": 1.6,
+   "kw": "artificial intelligence ethics bias fairness transparency accountability algorithm"
+  },
+  {
+   "id": "DIGI-07",
+   "domain": "DIGI",
+   "name": "Digital Public Infrastructure",
+   "crit": 2,
+   "trend": 1.5,
+   "kw": "digital public infrastructure aadhaar upi digilocker consent manager registry interoperable india stack"
+  },
+  {
+   "id": "BEHV-01",
+   "domain": "BEHV",
+   "name": "Team Leadership & Field Supervision",
+   "crit": 2,
+   "trend": 0.9,
+   "kw": "leadership supervision team motivation delegation field staff mentoring"
+  },
+  {
+   "id": "BEHV-02",
+   "domain": "BEHV",
+   "name": "Inter-Ministerial Stakeholder Engagement",
+   "crit": 2,
+   "trend": 1,
+   "kw": "stakeholder coordination ministry engagement negotiation liaison committee"
+  },
+  {
+   "id": "BEHV-03",
+   "domain": "BEHV",
+   "name": "Survey Round & Project Management",
+   "crit": 3,
+   "trend": 1,
+   "kw": "project management schedule milestone budget risk survey round planning"
+  },
+  {
+   "id": "BEHV-04",
+   "domain": "BEHV",
+   "name": "Professional Ethics & Statistical Integrity",
+   "crit": 3,
+   "trend": 1.1,
+   "kw": "ethics integrity impartiality code conduct professional independence trust"
+  },
+  {
+   "id": "BEHV-05",
+   "domain": "BEHV",
+   "name": "Technical Report Writing",
+   "crit": 2,
+   "trend": 0.9,
+   "kw": "report writing documentation drafting technical note methodology annexure"
+  },
+  {
+   "id": "BEHV-06",
+   "domain": "BEHV",
+   "name": "Data Storytelling & Public Communication",
+   "crit": 1,
+   "trend": 1.1,
+   "kw": "communication storytelling presentation media briefing public narrative"
+  },
+  {
+   "id": "BEHV-07",
+   "domain": "BEHV",
+   "name": "Evidence-Based Decision Making",
+   "crit": 3,
+   "trend": 1.2,
+   "kw": "decision making evidence judgement uncertainty option appraisal bias policy choice"
+  },
+  {
+   "id": "BEHV-08",
+   "domain": "BEHV",
+   "name": "Change Management",
+   "crit": 2,
+   "trend": 1.3,
+   "kw": "change management adoption resistance transition reform rollout sustaining practice"
+  }
+ ],
+ "domains": [
+  {
+   "id": "STAT",
+   "name": "Statistical Foundations",
+   "short": "Statistical",
+   "hue": "accent"
+  },
+  {
+   "id": "TECH",
+   "name": "Data & Technology",
+   "short": "Technical",
+   "hue": "info"
+  },
+  {
+   "id": "DIGI",
+   "name": "Digital Governance",
+   "short": "Digital",
+   "hue": "warn"
+  },
+  {
+   "id": "BEHV",
+   "name": "Behavioural & Managerial",
+   "short": "Managerial",
+   "hue": "good"
+  }
+ ],
+ "roles": [
+  {
+   "id": "ISS-DD",
+   "name": "Deputy Director",
+   "cadre": "Indian Statistical Service",
+   "level": "Group A - JTS/STS",
+   "target": [
+    5,
+    4,
+    5,
+    4,
+    4,
+    4,
+    4,
+    4,
+    3,
+    3,
+    4,
+    4,
+    4,
+    4,
+    3,
+    2,
+    3,
+    2,
+    4,
+    3,
+    4,
+    3,
+    4,
+    3,
+    3,
+    3,
+    4,
+    4,
+    5,
+    5,
+    4,
+    3,
+    4,
+    3
+   ]
+  },
+  {
+   "id": "ISS-DIR",
+   "name": "Director",
+   "cadre": "Indian Statistical Service",
+   "level": "Group A - JAG",
+   "target": [
+    5,
+    4,
+    5,
+    5,
+    5,
+    4,
+    4,
+    4,
+    4,
+    4,
+    5,
+    4,
+    3,
+    3,
+    3,
+    2,
+    3,
+    2,
+    4,
+    4,
+    5,
+    4,
+    5,
+    3,
+    4,
+    4,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+   ]
+  },
+  {
+   "id": "SSS-JSO",
+   "name": "Junior Statistical Officer",
+   "cadre": "Subordinate Statistical Service",
+   "level": "Group B",
+   "target": [
+    3,
+    4,
+    3,
+    3,
+    2,
+    2,
+    4,
+    3,
+    3,
+    3,
+    2,
+    3,
+    3,
+    3,
+    3,
+    1,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    4,
+    3,
+    2,
+    2,
+    2
+   ]
+  },
+  {
+   "id": "SSS-SSO",
+   "name": "Senior Statistical Officer",
+   "cadre": "Subordinate Statistical Service",
+   "level": "Group B - Gazetted",
+   "target": [
+    4,
+    4,
+    4,
+    4,
+    3,
+    3,
+    4,
+    4,
+    3,
+    4,
+    3,
+    4,
+    3,
+    3,
+    4,
+    2,
+    2,
+    2,
+    4,
+    3,
+    4,
+    3,
+    3,
+    3,
+    2,
+    3,
+    4,
+    3,
+    4,
+    5,
+    4,
+    3,
+    3,
+    3
+   ]
+  },
+  {
+   "id": "NSSO-FI",
+   "name": "Field Investigator",
+   "cadre": "NSSO Field Operations Division",
+   "level": "Group C - Grade I",
+   "target": [
+    3,
+    5,
+    2,
+    2,
+    1,
+    1,
+    4,
+    3,
+    3,
+    3,
+    1,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    3,
+    2,
+    3,
+    3,
+    3,
+    2,
+    2,
+    1,
+    2,
+    3,
+    3,
+    3,
+    5,
+    2,
+    2,
+    2,
+    2
+   ]
+  },
+  {
+   "id": "DES-SO",
+   "name": "Statistical Officer, State DES",
+   "cadre": "State Directorate of Economics & Statistics",
+   "level": "State Cadre",
+   "target": [
+    4,
+    4,
+    3,
+    4,
+    3,
+    3,
+    4,
+    3,
+    4,
+    3,
+    4,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    3,
+    4,
+    3,
+    4,
+    3,
+    4,
+    3,
+    2,
+    3,
+    3,
+    4,
+    4,
+    4,
+    4,
+    3,
+    4,
+    3
+   ]
+  },
+  {
+   "id": "MOSPI-DA",
+   "name": "Data Analyst, Data Informatics",
+   "cadre": "MoSPI - NDAP",
+   "level": "Technical",
+   "target": [
+    3,
+    2,
+    4,
+    3,
+    3,
+    4,
+    4,
+    3,
+    2,
+    3,
+    3,
+    5,
+    5,
+    4,
+    5,
+    4,
+    5,
+    3,
+    5,
+    3,
+    5,
+    4,
+    5,
+    4,
+    5,
+    4,
+    2,
+    3,
+    3,
+    4,
+    3,
+    4,
+    4,
+    2
+   ]
+  },
+  {
+   "id": "NSSTA-FAC",
+   "name": "Training Faculty",
+   "cadre": "National Statistical Systems Training Academy",
+   "level": "Faculty",
+   "target": [
+    5,
+    4,
+    5,
+    4,
+    4,
+    4,
+    5,
+    4,
+    4,
+    4,
+    4,
+    5,
+    4,
+    4,
+    3,
+    2,
+    3,
+    2,
+    4,
+    3,
+    4,
+    3,
+    4,
+    3,
+    4,
+    3,
+    4,
+    4,
+    4,
+    5,
+    5,
+    5,
+    4,
+    5
+   ]
+  }
+ ],
+ "officers": [
+  {
+   "id": "OFF-001",
+   "name": "Ananya Iyer",
+   "role_id": "ISS-DD",
+   "posting": "Economic Statistics Division, MoSPI",
+   "station": "New Delhi",
+   "exp": 9,
+   "batch": "ISS 2016",
+   "qual": [
+    "M.Sc. Statistics"
+   ],
+   "bias": {
+    "STAT": 0.14,
+    "TECH": -0.34,
+    "DIGI": -0.22,
+    "BEHV": 0.04
+   },
+   "seed": 4117,
+   "note": "Leads the quarterly GVA compilation cell. Flagged by her Director as ready for a data-engineering stretch assignment.",
+   "trainings": [
+    {
+     "course_id": "KM-5017",
+     "completed_on": "2016-08-01",
+     "score": 78
+    },
+    {
+     "course_id": "KM-1210",
+     "completed_on": "2021-02-01",
+     "score": 84
+    },
+    {
+     "course_id": "KM-3011",
+     "completed_on": "2023-06-01",
+     "score": 91
+    },
+    {
+     "course_id": "KM-4122",
+     "completed_on": "2022-11-01",
+     "score": 72
+    }
+   ]
+  },
+  {
+   "id": "OFF-002",
+   "name": "Rakesh Meena",
+   "role_id": "SSS-JSO",
+   "posting": "NSSO Field Operations Division, Regional Office",
+   "station": "Jaipur",
+   "exp": 4,
+   "batch": "SSS 2021",
+   "qual": [
+    "B.Sc. Mathematics"
+   ],
+   "bias": {
+    "STAT": -0.1,
+    "TECH": -0.3,
+    "DIGI": -0.18,
+    "BEHV": 0.02
+   },
+   "seed": 9042,
+   "note": "Handles PLFS and CES schedules across four districts. Due for the next scrutiny-supervisor selection cycle.",
+   "trainings": [
+    {
+     "course_id": "KM-5017",
+     "completed_on": "2021-11-01",
+     "score": 69
+    },
+    {
+     "course_id": "KM-3082",
+     "completed_on": "2024-01-01",
+     "score": 74
+    }
+   ]
+  },
+  {
+   "id": "OFF-003",
+   "name": "Priya Nambiar",
+   "role_id": "MOSPI-DA",
+   "posting": "Data Informatics & Innovation Division (NDAP)",
+   "station": "New Delhi",
+   "exp": 3,
+   "batch": "Lateral 2022",
+   "qual": [
+    "M.Tech. Data Science"
+   ],
+   "bias": {
+    "STAT": -0.3,
+    "TECH": 0.16,
+    "DIGI": 0.04,
+    "BEHV": -0.16
+   },
+   "seed": 2288,
+   "note": "Strong engineering base, thin on survey methodology — the classic lateral-entry gap signature.",
+   "trainings": [
+    {
+     "course_id": "KM-2010",
+     "completed_on": "2023-03-01",
+     "score": 93
+    },
+    {
+     "course_id": "KM-2091",
+     "completed_on": "2023-09-01",
+     "score": 88
+    },
+    {
+     "course_id": "KM-3163",
+     "completed_on": "2024-07-01",
+     "score": 81
+    }
+   ]
+  },
+  {
+   "id": "OFF-004",
+   "name": "Suresh Chandra Behera",
+   "role_id": "ISS-DIR",
+   "posting": "Social Statistics Division, MoSPI",
+   "station": "New Delhi",
+   "exp": 21,
+   "batch": "ISS 2004",
+   "qual": [
+    "M.Phil. Economics"
+   ],
+   "bias": {
+    "STAT": 0.06,
+    "TECH": -0.44,
+    "DIGI": -0.32,
+    "BEHV": 0.12
+   },
+   "seed": 6631,
+   "note": "Chairs the SDG indicator working group. Digital-governance competencies have not been refreshed since 2019.",
+   "trainings": [
+    {
+     "course_id": "KM-5017",
+     "completed_on": "2004-09-01",
+     "score": 74
+    },
+    {
+     "course_id": "KM-1210",
+     "completed_on": "2011-05-01",
+     "score": 80
+    },
+    {
+     "course_id": "KM-4068",
+     "completed_on": "2016-08-01",
+     "score": 86
+    },
+    {
+     "course_id": "KM-4041",
+     "completed_on": "2019-03-01",
+     "score": 83
+    },
+    {
+     "course_id": "KM-5125",
+     "completed_on": "2022-01-01",
+     "score": 79
+    }
+   ]
+  },
+  {
+   "id": "OFF-005",
+   "name": "Kavitha Rangan",
+   "role_id": "DES-SO",
+   "posting": "Directorate of Economics & Statistics, Government of Tamil Nadu",
+   "station": "Chennai",
+   "exp": 11,
+   "batch": "State 2014",
+   "qual": [
+    "M.A. Economics"
+   ],
+   "bias": {
+    "STAT": 0,
+    "TECH": -0.26,
+    "DIGI": -0.1,
+    "BEHV": -0.06
+   },
+   "seed": 5519,
+   "note": "State-level CPI and district domestic product work. Nominated by the State DES for the TPAC advanced pool.",
+   "trainings": [
+    {
+     "course_id": "KM-1150",
+     "completed_on": "2018-07-01",
+     "score": 82
+    },
+    {
+     "course_id": "KM-5071",
+     "completed_on": "2020-02-01",
+     "score": 77
+    },
+    {
+     "course_id": "KM-3011",
+     "completed_on": "2023-10-01",
+     "score": 85
+    }
+   ]
+  },
+  {
+   "id": "OFF-006",
+   "name": "Imran Qureshi",
+   "role_id": "NSSO-FI",
+   "posting": "NSSO Field Operations Division, Sub-Regional Office",
+   "station": "Lucknow",
+   "exp": 6,
+   "batch": "SSS 2019",
+   "qual": [
+    "B.A. Economics"
+   ],
+   "bias": {
+    "STAT": 0.04,
+    "TECH": -0.22,
+    "DIGI": -0.14,
+    "BEHV": -0.02
+   },
+   "seed": 7743,
+   "note": "Highest schedule-completion rate in the sub-region. Weak on the tablet-based capture workflow introduced in 2024.",
+   "trainings": [
+    {
+     "course_id": "KM-5017",
+     "completed_on": "2019-10-01",
+     "score": 71
+    },
+    {
+     "course_id": "KM-5044",
+     "completed_on": "2023-04-01",
+     "score": 80
+    },
+    {
+     "course_id": "KM-1103",
+     "completed_on": "2024-02-01",
+     "score": 76
+    }
+   ]
+  }
+ ],
+ "tpacCourses": [
+  {
+   "id": "KM-1042",
+   "title": "Foundations of Survey Sampling for Official Statistics",
+   "provider": "NSSTA",
+   "secs": 86400,
+   "lang": "EN / HI",
+   "level": 2,
+   "abstract": "Probability sampling frames, stratification and multistage design as applied in National Sample Survey rounds. Covers selection with probability proportional to size, systematic circular sampling, sub-sample independence and the construction of design weights and multipliers for household and enterprise surveys.",
+   "origin": "tpac",
+   "cov": {
+    "STAT-01": 1,
+    "STAT-03": 0.4,
+    "STAT-02": 0.3
+   }
+  },
+  {
+   "id": "KM-1077",
+   "title": "Advanced Estimation Theory and Variance Computation",
+   "provider": "ISI Kolkata",
+   "secs": 129600,
+   "lang": "EN",
+   "level": 4,
+   "abstract": "Ratio and regression estimators, calibration weighting and design based variance estimation for complex survey designs. Introduces linearisation, jackknife and bootstrap replication methods to compute standard errors and confidence intervals from stratified multistage samples.",
+   "origin": "tpac",
+   "cov": {
+    "STAT-03": 1,
+    "STAT-01": 0.6
+   }
+  },
+  {
+   "id": "KM-1103",
+   "title": "Questionnaire Design and Field Canvassing Discipline",
+   "provider": "NSSTA",
+   "secs": 57600,
+   "lang": "EN / HI",
+   "level": 2,
+   "abstract": "Designing schedules that minimise respondent burden and measurement error. Question wording, recall periods, skip logic, probing technique, handling refusals and partial non response during household enumeration in rural and urban blocks.",
+   "origin": "tpac",
+   "cov": {
+    "STAT-02": 1,
+    "BEHV-04": 0.3,
+    "STAT-07": 0.3
+   }
+  },
+  {
+   "id": "KM-1150",
+   "title": "Consumer Price Index: Compilation and Interpretation",
+   "provider": "NSSTA",
+   "secs": 72000,
+   "lang": "EN / HI",
+   "level": 3,
+   "abstract": "Construction of the Consumer Price Index using the Laspeyres formula, item basket selection, weighting diagrams derived from consumption expenditure surveys, price collection protocols, quality adjustment, base year revision and linking of index series.",
+   "origin": "tpac",
+   "cov": {
+    "STAT-04": 1,
+    "STAT-06": 0.3
+   }
+  },
+  {
+   "id": "KM-1162",
+   "title": "Index of Industrial Production and Wholesale Prices",
+   "provider": "MoSPI",
+   "secs": 64800,
+   "lang": "EN",
+   "level": 3,
+   "abstract": "Compilation of the Index of Industrial Production and the Wholesale Price Index. Item basket, source agencies, response follow up, seasonal factors, revision policy and the interpretation of month on month versus year on year movement.",
+   "origin": "tpac",
+   "cov": {
+    "STAT-04": 0.9,
+    "STAT-06": 0.3,
+    "STAT-07": 0.2,
+    "STAT-10": 0.5
+   }
+  },
+  {
+   "id": "KM-1210",
+   "title": "National Accounts Statistics: Concepts and Compilation",
+   "provider": "NSSTA",
+   "secs": 144000,
+   "lang": "EN",
+   "level": 4,
+   "abstract": "System of National Accounts framework, gross value added by economic activity, supply and use tables, production and expenditure approaches to gross domestic product, deflation to constant prices and the treatment of the unorganised sector.",
+   "origin": "tpac",
+   "cov": {
+    "STAT-05": 1,
+    "STAT-04": 0.3,
+    "BEHV-05": 0.2
+   }
+  },
+  {
+   "id": "KM-1246",
+   "title": "Quarterly GDP Estimation and Benchmark Indicators",
+   "provider": "MoSPI",
+   "secs": 79200,
+   "lang": "EN",
+   "level": 5,
+   "abstract": "Benchmark indicator method for quarterly gross domestic product, extrapolation using high frequency indicators, temporal disaggregation, benchmarking to annual estimates and reconciliation of revisions across successive releases.",
+   "origin": "tpac",
+   "cov": {
+    "STAT-05": 0.9,
+    "STAT-06": 0.6
+   }
+  },
+  {
+   "id": "KM-1288",
+   "title": "Time Series Analysis and Seasonal Adjustment",
+   "provider": "ISI Kolkata",
+   "secs": 108000,
+   "lang": "EN",
+   "level": 4,
+   "abstract": "Trend cycle decomposition, stationarity testing, ARIMA modelling and X-13ARIMA-SEATS seasonal adjustment of official series. Includes outlier detection, calendar and festival effects specific to Indian economic series and forecasting evaluation.",
+   "origin": "tpac",
+   "cov": {
+    "STAT-06": 1,
+    "TECH-02": 0.4,
+    "STAT-03": 0.3
+   }
+  },
+  {
+   "id": "KM-1320",
+   "title": "Data Editing, Validation and Imputation Techniques",
+   "provider": "NSSTA",
+   "secs": 64800,
+   "lang": "EN / HI",
+   "level": 3,
+   "abstract": "Selective editing, Fellegi Holt consistency rules, outlier detection and hot deck and model based imputation of missing values. Building automated validation suites and measuring the impact of editing on published estimates.",
+   "origin": "tpac",
+   "cov": {
+    "STAT-07": 1,
+    "TECH-01": 0.3
+   }
+  },
+  {
+   "id": "KM-1355",
+   "title": "Small Area Estimation for District Level Statistics",
+   "provider": "ISI Kolkata",
+   "secs": 93600,
+   "lang": "EN",
+   "level": 5,
+   "abstract": "Direct and model assisted small area estimators, Fay Herriot area level models and empirical best linear unbiased prediction to produce reliable district level indicators when survey sample sizes are inadequate.",
+   "origin": "tpac",
+   "cov": {
+    "STAT-03": 0.7,
+    "TECH-06": 0.8,
+    "TECH-05": 0.5
+   }
+  },
+  {
+   "id": "KM-2010",
+   "title": "Python for Statistical Computing",
+   "provider": "iGOT Karmayogi",
+   "secs": 100800,
+   "lang": "EN / HI",
+   "level": 2,
+   "abstract": "Programming with Python for statistical work: pandas data frames, numpy arrays, reading survey microdata, applying design weights, group aggregation, reproducible notebooks and scripting repetitive tabulation tasks.",
+   "origin": "tpac",
+   "cov": {
+    "TECH-01": 1,
+    "TECH-07": 0.4,
+    "STAT-07": 0.3
+   }
+  },
+  {
+   "id": "KM-2035",
+   "title": "Automating Survey Tabulation with pandas",
+   "provider": "MoSPI",
+   "secs": 50400,
+   "lang": "EN",
+   "level": 3,
+   "abstract": "Turning manual spreadsheet tabulation into repeatable Python pipelines. Weighted cross tabulation, multi index reshaping, unit level to estimate level workflows and automated generation of standard statement tables.",
+   "origin": "tpac",
+   "cov": {
+    "TECH-01": 0.9,
+    "STAT-07": 0.4,
+    "TECH-07": 0.3
+   }
+  },
+  {
+   "id": "KM-2064",
+   "title": "R and the survey Package for Complex Designs",
+   "provider": "ISI Kolkata",
+   "secs": 79200,
+   "lang": "EN",
+   "level": 3,
+   "abstract": "Using R and the survey package to declare stratified multistage designs, compute design correct estimates and standard errors, apply calibration and replicate weights, and produce publication ready output.",
+   "origin": "tpac",
+   "cov": {
+    "TECH-02": 1,
+    "STAT-01": 0.5,
+    "STAT-03": 0.4
+   }
+  },
+  {
+   "id": "KM-2091",
+   "title": "SQL and Relational Data Management for Statisticians",
+   "provider": "NIC",
+   "secs": 72000,
+   "lang": "EN / HI",
+   "level": 2,
+   "abstract": "Relational schema design, SELECT queries, joins, aggregation, window functions and indexing for statistical data warehouses. Loading unit level survey data and building query layers for dissemination systems.",
+   "origin": "tpac",
+   "cov": {
+    "TECH-03": 1,
+    "TECH-04": 0.2
+   }
+  },
+  {
+   "id": "KM-2118",
+   "title": "Big Data Platforms for Official Statistics",
+   "provider": "NIC",
+   "secs": 86400,
+   "lang": "EN",
+   "level": 4,
+   "abstract": "Distributed processing with Apache Spark for administrative and scanner data at scale. Cluster concepts, partitioning, data lake ingestion and cost aware pipeline design for statistical production environments.",
+   "origin": "tpac",
+   "cov": {
+    "TECH-04": 1,
+    "TECH-03": 0.4,
+    "TECH-01": 0.3
+   }
+  },
+  {
+   "id": "KM-2145",
+   "title": "Machine Learning Applications in Official Statistics",
+   "provider": "ISI Kolkata",
+   "secs": 115200,
+   "lang": "EN",
+   "level": 4,
+   "abstract": "Supervised classification for automatic coding of occupation and industry descriptions, model evaluation, class imbalance, and the use of prediction for editing and imputation without compromising statistical validity.",
+   "origin": "tpac",
+   "cov": {
+    "TECH-05": 1,
+    "DIGI-06": 0.5,
+    "TECH-01": 0.4
+   }
+  },
+  {
+   "id": "KM-2172",
+   "title": "Geospatial Analysis and GIS for Survey Operations",
+   "provider": "NIC",
+   "secs": 72000,
+   "lang": "EN / HI",
+   "level": 3,
+   "abstract": "Digital block maps, shapefiles, coordinate systems and spatial joins for sampling frame maintenance. Geo tagging of enumeration blocks, route planning for field investigators and thematic mapping of indicators.",
+   "origin": "tpac",
+   "cov": {
+    "TECH-06": 1,
+    "STAT-02": 0.4
+   }
+  },
+  {
+   "id": "KM-2199",
+   "title": "Data Visualisation and Dashboard Design",
+   "provider": "iGOT Karmayogi",
+   "secs": 57600,
+   "lang": "EN / HI",
+   "level": 2,
+   "abstract": "Choosing chart forms that match the statistical message, designing dashboards for senior decision makers, accessibility and colour, annotation of uncertainty and avoiding misleading axis and scale choices.",
+   "origin": "tpac",
+   "cov": {
+    "TECH-07": 1,
+    "BEHV-06": 0.5
+   }
+  },
+  {
+   "id": "KM-2224",
+   "title": "Building Statistical Dashboards with Open Tools",
+   "provider": "MoSPI",
+   "secs": 64800,
+   "lang": "EN",
+   "level": 3,
+   "abstract": "Hands on construction of interactive indicator dashboards from published datasets, connecting to APIs, caching, refresh scheduling and publishing dashboards on government cloud infrastructure.",
+   "origin": "tpac",
+   "cov": {
+    "TECH-07": 0.9,
+    "TECH-01": 0.5,
+    "DIGI-04": 0.4
+   }
+  },
+  {
+   "id": "KM-3011",
+   "title": "e-Office and Digital File Management",
+   "provider": "iGOT Karmayogi",
+   "secs": 28800,
+   "lang": "EN / HI",
+   "level": 1,
+   "abstract": "Electronic file creation, noting and drafting, digital signature certificates, movement and parking of files, and migration of physical records into the e-Office platform across government offices.",
+   "origin": "tpac",
+   "cov": {
+    "DIGI-01": 1
+   }
+  },
+  {
+   "id": "KM-3038",
+   "title": "Digital Personal Data Protection Act 2023: Duties of Data Fiduciaries",
+   "provider": "iGOT Karmayogi",
+   "secs": 43200,
+   "lang": "EN / HI",
+   "level": 2,
+   "abstract": "Obligations of a data fiduciary under the Digital Personal Data Protection Act, lawful purpose and consent, notice requirements, rights of the data principal, breach notification and the exemption available for research and statistical purposes.",
+   "origin": "tpac",
+   "cov": {
+    "DIGI-02": 1,
+    "BEHV-04": 0.4
+   }
+  },
+  {
+   "id": "KM-3055",
+   "title": "Statistical Disclosure Control and Microdata Release",
+   "provider": "NSSTA",
+   "secs": 57600,
+   "lang": "EN",
+   "level": 4,
+   "abstract": "Protecting respondent confidentiality when releasing unit level records. Re identification risk, k anonymity, record swapping, top coding, perturbation and the statutory confidentiality guarantee under the Collection of Statistics Act.",
+   "origin": "tpac",
+   "cov": {
+    "DIGI-02": 0.9,
+    "STAT-07": 0.5,
+    "BEHV-04": 0.4
+   }
+  },
+  {
+   "id": "KM-3082",
+   "title": "Cybersecurity Hygiene for Government Officials",
+   "provider": "CERT-In",
+   "secs": 21600,
+   "lang": "EN / HI",
+   "level": 1,
+   "abstract": "Password practice and multi factor authentication, recognising phishing and social engineering, safe handling of removable media, incident reporting to the computer emergency response team and secure remote working.",
+   "origin": "tpac",
+   "cov": {
+    "DIGI-03": 1
+   }
+  },
+  {
+   "id": "KM-3109",
+   "title": "Open Data, APIs and Publishing on NDAP",
+   "provider": "MoSPI",
+   "secs": 50400,
+   "lang": "EN",
+   "level": 3,
+   "abstract": "Preparing machine readable datasets, writing metadata to the national standard, versioning, licensing, designing REST endpoints and publishing indicator series to the National Data and Analytics Platform.",
+   "origin": "tpac",
+   "cov": {
+    "DIGI-04": 1,
+    "TECH-03": 0.3,
+    "BEHV-05": 0.3,
+    "STAT-12": 0.5
+   }
+  },
+  {
+   "id": "KM-3136",
+   "title": "Cloud Fundamentals on MeghRaj for Data Teams",
+   "provider": "NIC",
+   "secs": 43200,
+   "lang": "EN",
+   "level": 2,
+   "abstract": "Government cloud service models, provisioning virtual machines and storage on MeghRaj, network security groups, backup policy and empanelled service provider compliance for statistical applications.",
+   "origin": "tpac",
+   "cov": {
+    "DIGI-05": 1,
+    "TECH-04": 0.3
+   }
+  },
+  {
+   "id": "KM-3163",
+   "title": "Responsible AI in Public Administration",
+   "provider": "iGOT Karmayogi",
+   "secs": 36000,
+   "lang": "EN / HI",
+   "level": 2,
+   "abstract": "Fairness, transparency and accountability when algorithms inform public decisions. Sources of bias in training data, explainability expectations, human oversight, and documenting model limitations for citizens.",
+   "origin": "tpac",
+   "cov": {
+    "DIGI-06": 1,
+    "BEHV-04": 0.5
+   }
+  },
+  {
+   "id": "KM-3190",
+   "title": "AI Assisted Assessment and Content Generation",
+   "provider": "NSSTA",
+   "secs": 43200,
+   "lang": "EN",
+   "level": 3,
+   "abstract": "Using large language models to draft training material and generate assessment items, prompt design, factual verification of generated questions and human in the loop review before deployment to learners.",
+   "origin": "tpac",
+   "cov": {
+    "DIGI-06": 0.7,
+    "TECH-05": 0.5,
+    "BEHV-05": 0.4
+   }
+  },
+  {
+   "id": "KM-4014",
+   "title": "Leading Field Teams in Survey Operations",
+   "provider": "NSSTA",
+   "secs": 50400,
+   "lang": "EN / HI",
+   "level": 3,
+   "abstract": "Supervising field investigators across districts, allocation of workload, motivation and retention, quality supervision visits, resolving respondent escalations and conducting scrutiny of filled schedules.",
+   "origin": "tpac",
+   "cov": {
+    "BEHV-01": 1,
+    "BEHV-03": 0.4,
+    "STAT-02": 0.3
+   }
+  },
+  {
+   "id": "KM-4041",
+   "title": "Inter-Ministerial Coordination and Committee Work",
+   "provider": "IIPA",
+   "secs": 43200,
+   "lang": "EN",
+   "level": 3,
+   "abstract": "Working across ministries and state directorates, preparing agenda and background notes, negotiating data sharing arrangements, chairing technical committees and following up on decisions.",
+   "origin": "tpac",
+   "cov": {
+    "BEHV-02": 1,
+    "BEHV-05": 0.3
+   }
+  },
+  {
+   "id": "KM-4068",
+   "title": "Project Management for Survey Rounds",
+   "provider": "IIPA",
+   "secs": 72000,
+   "lang": "EN / HI",
+   "level": 3,
+   "abstract": "Planning a survey round end to end: work breakdown, critical path, budget estimation, procurement of field resources, risk registers and monitoring progress against the release calendar.",
+   "origin": "tpac",
+   "cov": {
+    "BEHV-03": 1,
+    "BEHV-01": 0.4
+   }
+  },
+  {
+   "id": "KM-4095",
+   "title": "Fundamental Principles of Official Statistics",
+   "provider": "NSSTA",
+   "secs": 28800,
+   "lang": "EN / HI",
+   "level": 1,
+   "abstract": "The United Nations Fundamental Principles of Official Statistics, professional independence, impartiality in release, equal access to published data, confidentiality of individual records and the duty to comment on misinterpretation.",
+   "origin": "tpac",
+   "cov": {
+    "BEHV-04": 1,
+    "DIGI-02": 0.3
+   }
+  },
+  {
+   "id": "KM-4122",
+   "title": "Technical Report Writing for Statistical Publications",
+   "provider": "NSSTA",
+   "secs": 57600,
+   "lang": "EN",
+   "level": 3,
+   "abstract": "Structuring a survey report, writing the methodology chapter, presenting estimates with measures of precision, drafting concept and definition annexures and maintaining consistency of terminology across releases.",
+   "origin": "tpac",
+   "cov": {
+    "BEHV-05": 1,
+    "STAT-07": 0.3,
+    "BEHV-06": 0.3
+   }
+  },
+  {
+   "id": "KM-4149",
+   "title": "Data Storytelling for Policy Audiences",
+   "provider": "iGOT Karmayogi",
+   "secs": 36000,
+   "lang": "EN / HI",
+   "level": 2,
+   "abstract": "Translating statistical findings into narratives that senior policy makers and the public can act on, structuring a briefing, anticipating questions and communicating uncertainty without losing clarity.",
+   "origin": "tpac",
+   "cov": {
+    "BEHV-06": 1,
+    "TECH-07": 0.5
+   }
+  },
+  {
+   "id": "KM-4176",
+   "title": "Public Speaking and Media Briefing for Officials",
+   "provider": "IIPA",
+   "secs": 28800,
+   "lang": "EN / HI",
+   "level": 2,
+   "abstract": "Preparing and delivering briefings to press and stakeholders, handling difficult questions on data revisions, correcting misinterpretation of official figures and maintaining institutional voice.",
+   "origin": "tpac",
+   "cov": {
+    "BEHV-06": 0.9,
+    "BEHV-02": 0.4
+   }
+  },
+  {
+   "id": "KM-4203",
+   "title": "Ethics and Integrity in Public Service",
+   "provider": "iGOT Karmayogi",
+   "secs": 21600,
+   "lang": "EN / HI",
+   "level": 1,
+   "abstract": "Conduct rules, conflict of interest, integrity in procurement and recruitment, whistle blower protection and the ethical obligations attached to holding sensitive citizen information.",
+   "origin": "tpac",
+   "cov": {
+    "BEHV-04": 0.9,
+    "BEHV-02": 0.2
+   }
+  },
+  {
+   "id": "KM-5017",
+   "title": "Induction Training for Statistical Officers",
+   "provider": "NSSTA",
+   "secs": 108000,
+   "lang": "EN / HI",
+   "level": 1,
+   "abstract": "Foundation programme covering the structure of the Indian Statistical System, principal surveys and their periodicity, field procedures, office workflow and the code of conduct expected of a statistical officer.",
+   "origin": "tpac",
+   "cov": {
+    "STAT-01": 0.4,
+    "STAT-02": 0.6,
+    "STAT-07": 0.4,
+    "BEHV-04": 0.5,
+    "DIGI-01": 0.4
+   }
+  },
+  {
+   "id": "KM-5044",
+   "title": "Refresher on NSS Survey Instruments and Concepts",
+   "provider": "NSSTA",
+   "secs": 43200,
+   "lang": "EN / HI",
+   "level": 2,
+   "abstract": "Updated concepts and definitions across current National Sample Survey schedules, changes in classification, common field errors identified in scrutiny and clarifications issued since the previous round.",
+   "origin": "tpac",
+   "cov": {
+    "STAT-02": 0.8,
+    "STAT-01": 0.5,
+    "STAT-07": 0.4
+   }
+  },
+  {
+   "id": "KM-5071",
+   "title": "Economic Census Operations and Listing Procedure",
+   "provider": "MoSPI",
+   "secs": 57600,
+   "lang": "EN / HI",
+   "level": 2,
+   "abstract": "House listing and establishment identification for the Economic Census, treatment of own account enterprises, coverage rules and use of mobile applications for capture and geo tagging during listing.",
+   "origin": "tpac",
+   "cov": {
+    "STAT-02": 0.8,
+    "BEHV-03": 0.4,
+    "TECH-06": 0.3,
+    "STAT-10": 0.5
+   }
+  },
+  {
+   "id": "KM-5098",
+   "title": "Administrative Data Sources for Statistical Production",
+   "provider": "NSSTA",
+   "secs": 50400,
+   "lang": "EN",
+   "level": 4,
+   "abstract": "Assessing administrative registers for statistical use, record linkage and matching quality, coverage and definitional differences, and building a register based statistical system alongside sample surveys.",
+   "origin": "tpac",
+   "cov": {
+    "STAT-07": 0.7,
+    "TECH-03": 0.5,
+    "DIGI-02": 0.4,
+    "DIGI-04": 0.3
+   }
+  },
+  {
+   "id": "KM-5125",
+   "title": "Sustainable Development Goals: National Indicator Framework",
+   "provider": "MoSPI",
+   "secs": 43200,
+   "lang": "EN / HI",
+   "level": 2,
+   "abstract": "Structure of the National Indicator Framework, data sources and computation methodology for SDG indicators, periodicity, disaggregation requirements and reporting through the SDG India dashboard.",
+   "origin": "tpac",
+   "cov": {
+    "STAT-05": 0.4,
+    "DIGI-04": 0.5,
+    "BEHV-05": 0.4,
+    "BEHV-02": 0.4,
+    "STAT-11": 1
+   }
+  },
+  {
+   "id": "KM-5152",
+   "title": "Gender Statistics and Disaggregated Reporting",
+   "provider": "NSSTA",
+   "secs": 36000,
+   "lang": "EN / HI",
+   "level": 2,
+   "abstract": "Measuring unpaid work and time use, gender sensitive question design, disaggregation standards and interpreting differentials in labour force participation and asset ownership.",
+   "origin": "tpac",
+   "cov": {
+    "STAT-02": 0.4,
+    "BEHV-05": 0.4,
+    "BEHV-06": 0.4,
+    "DIGI-04": 0.3,
+    "STAT-08": 0.4
+   }
+  },
+  {
+   "id": "KM-5179",
+   "title": "Periodic Labour Force Survey: Methods and Estimates",
+   "provider": "MoSPI",
+   "secs": 64800,
+   "lang": "EN",
+   "level": 3,
+   "abstract": "Rotational panel design of the Periodic Labour Force Survey, current weekly and usual status approaches, activity classification, estimation of unemployment rate and worker population ratio.",
+   "origin": "tpac",
+   "cov": {
+    "STAT-01": 0.6,
+    "STAT-02": 0.6,
+    "STAT-03": 0.4,
+    "STAT-07": 0.3,
+    "STAT-08": 1
+   }
+  },
+  {
+   "id": "KM-5206",
+   "title": "Annual Survey of Industries: Frame and Processing",
+   "provider": "MoSPI",
+   "secs": 57600,
+   "lang": "EN",
+   "level": 3,
+   "abstract": "Maintenance of the ASI frame from the Business Register, census and sample sectors, return processing, editing of factory returns and computation of principal characteristics of the factory sector.",
+   "origin": "tpac",
+   "cov": {
+    "STAT-01": 0.5,
+    "STAT-07": 0.6,
+    "STAT-05": 0.5,
+    "TECH-03": 0.3,
+    "STAT-10": 0.9
+   }
+  },
+  {
+   "id": "KM-5233",
+   "title": "Agricultural Statistics: Crop Area and Yield Estimation",
+   "provider": "NSSTA",
+   "secs": 64800,
+   "lang": "EN / HI",
+   "level": 3,
+   "abstract": "General Crop Estimation Surveys, crop cutting experiments and the timely reporting scheme for area enumeration. Covers land use classification, yield estimation for principal crops and the use of remote sensing to supplement field observation.",
+   "origin": "tpac",
+   "cov": {
+    "STAT-09": 1,
+    "STAT-01": 0.4,
+    "TECH-06": 0.3
+   }
+  },
+  {
+   "id": "KM-5260",
+   "title": "Metadata Standards and Statistical Documentation",
+   "provider": "MoSPI",
+   "secs": 43200,
+   "lang": "EN",
+   "level": 3,
+   "abstract": "Documenting a statistical product so others can use it correctly. Concepts and definitions, classification versions, provenance and lineage, data dictionaries and the SDMX and DDI exchange standards used for indicator reporting.",
+   "origin": "tpac",
+   "cov": {
+    "STAT-12": 1,
+    "DIGI-04": 0.5,
+    "BEHV-05": 0.4
+   }
+  },
+  {
+   "id": "KM-3217",
+   "title": "Digital Public Infrastructure for Data Exchange",
+   "provider": "NIC",
+   "secs": 50400,
+   "lang": "EN / HI",
+   "level": 3,
+   "abstract": "Population scale digital rails and what they mean for statistical work: Aadhaar authentication, unified payments, DigiLocker, consent managers and interoperable registries, and the governance conditions for using them as data sources.",
+   "origin": "tpac",
+   "cov": {
+    "DIGI-07": 1,
+    "DIGI-05": 0.4,
+    "DIGI-02": 0.3
+   }
+  },
+  {
+   "id": "KM-4230",
+   "title": "Leading Change in Public Organisations",
+   "provider": "IIPA",
+   "secs": 50400,
+   "lang": "EN / HI",
+   "level": 3,
+   "abstract": "Carrying colleagues through a change in method or technology. Diagnosing resistance, sequencing a reform, communicating what stays the same, and sustaining a new practice after the rollout team has moved on.",
+   "origin": "tpac",
+   "cov": {
+    "BEHV-08": 1,
+    "BEHV-01": 0.4,
+    "BEHV-02": 0.3
+   }
+  },
+  {
+   "id": "KM-4257",
+   "title": "Evidence-Based Decision Making for Administrators",
+   "provider": "IIPA",
+   "secs": 43200,
+   "lang": "EN / HI",
+   "level": 3,
+   "abstract": "Framing a decision question so evidence can answer it, weighing the quality of competing sources, reasoning under uncertainty, recognising common cognitive biases and judging when the cost of further delay exceeds the value of more data.",
+   "origin": "tpac",
+   "cov": {
+    "BEHV-07": 1,
+    "BEHV-06": 0.4,
+    "STAT-03": 0.3
+   }
+  },
+  {
+   "id": "KM-2251",
+   "title": "Applied AI and Emerging Technology for Statistical Offices",
+   "provider": "NSSTA",
+   "secs": 72000,
+   "lang": "EN",
+   "level": 4,
+   "abstract": "Where artificial intelligence genuinely helps a statistical office: automatic coding of open responses, assisted editing and imputation, nowcasting from high frequency sources, and document processing. Includes hands on virtual laboratory exercises.",
+   "origin": "tpac",
+   "cov": {
+    "TECH-05": 0.7,
+    "DIGI-06": 0.6,
+    "TECH-04": 0.4,
+    "TECH-01": 0.3
+   }
+  }
+ ]
+}

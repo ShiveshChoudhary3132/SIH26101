@@ -1,0 +1,14 @@
+{
+  "name": "samarth",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SAMARTH — AI competency intelligence for India's Official Statistical System (SIH26101, Team SPARK)",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "ingest": "node tools/ingest-igot.mjs data/courses.json",
+    "seed-export": "node tools/export-seed.mjs",
+    "build": "node tools/ingest-igot.mjs data/courses.json && node build.mjs",
+    "dev": "python -m http.server 8731"
+  }
+}

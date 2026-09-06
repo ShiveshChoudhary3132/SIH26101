@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SAMARTH</title>
+<meta name="description" content="AI competency-gap analysis, personalised iGOT Karmayogi training paths and automatic MCQ generation for India's Official Statistical System.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Source+Code+Pro:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+<div id="root"></div>
+<div class="toasts" id="toasts" aria-live="polite"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>
+  // Best-effort in-browser PDF text extraction. If the worker cannot be
+  // reached the Studio falls back to paste, with a message.
+  try {
+    if (window.pdfjsLib) {
+      window.pdfjsLib.GlobalWorkerOptions.workerSrc =
+        'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+    }
+  } catch (e) { /* PDF upload simply stays unavailable */ }
+</script>
+
+<script src="src/catalogue.js"></script>
+<script src="src/data.js"></script>
+<script src="src/nlp.js"></script>
+<script src="src/engine.js"></script>
+<script src="src/charts.js"></script>
+<script src="src/mcq.js"></script>
+<script src="src/app.js"></script>
+<script src="src/views-learner.js"></script>
+<script src="src/views-studio.js"></script>
+<script src="src/views-system.js"></script>
+<script>window.NX.app.boot();</script>
+</body>
+</html>
